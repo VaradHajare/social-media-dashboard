@@ -1,0 +1,53 @@
+{
+  "name": "social-media-dashboard-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mui/material": "^7.3.2",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "chart.js": "^4.5.0",
+    "facebook-nodejs-business-sdk": "^23.0.1",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "react": "^19.1.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2",
+    "react-scripts": "^5.0.1",
+    "sequelize": "^6.37.7",
+    "twitter-api-v2": "^1.25.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.3"
+  }
+}
