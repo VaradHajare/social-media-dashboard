@@ -1,0 +1,13 @@
+{
+  "name": "social-media-dashboard",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix social-media-dashboard-backend && npm install --prefix social-media-dashboard-frontend",
+    "dev": "concurrently \"npm run dev --prefix social-media-dashboard-backend\" \"npm run dev --prefix social-media-dashboard-frontend\"",
+    "build": "npm run build --prefix social-media-dashboard-frontend",
+    "start": "concurrently \"npm run start --prefix social-media-dashboard-backend\" \"npm run start --prefix social-media-dashboard-frontend -- --host 0.0.0.0\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
